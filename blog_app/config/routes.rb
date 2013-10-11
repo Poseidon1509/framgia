@@ -1,4 +1,15 @@
 BlogApp::Application.routes.draw do
+  get "news/new"
+  get "news/index"
+  get "news/edit"
+  get "news/update"
+  get "news/save"
+  get "news/destroy"
+  get "users/new"
+  root "static_pages#home"
+  get "static_pages/home"
+  get "static_pages/help"
+  get "static_pages/contact"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
